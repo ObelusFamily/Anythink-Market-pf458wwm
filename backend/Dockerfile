@@ -1,4 +1,4 @@
-FROM python:3.9.13
+FROM python:3.10.0
 
 ENV VIRTUAL_ENV=/opt/venv
 RUN python3 -m venv $VIRTUAL_ENV
